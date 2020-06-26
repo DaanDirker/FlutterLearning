@@ -1,0 +1,4 @@
+enum Ingredient {
+  ONIONS,
+  GARLIC
+}
