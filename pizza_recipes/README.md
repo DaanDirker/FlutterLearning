@@ -1,16 +1,26 @@
-# concept
+# Pizza Recipes
 
-A new Flutter project.
+Finds ***the*** right pizza recipe for you.
 
-## Getting Started
+## Demo
 
-This project is a starting point for a Flutter application.
+![Alt text](./demo_images/pizzas.png) ![Alt text](./demo_images/details.png) ![Alt text](./demo_images/webview.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Learned
+- Everything is a widget;
+- Passing data to stateful and statless widgets;
+- Using RxDart data streams to inform the UI of data changes, and making the UI respond to these changes;
+- Seperating software concerenst a.k.a Seperation of Concerns (SOC) using the BLoC architecture;
+- Applying the repository pattern in Flutter;
+- Handling local widget state;
+- Building stateful and stateless widgets;
+- Parsing JSON data using a model's factory;
+- Requesting data from a REST api using the dart http dependency;
+- Building a responsive UI;
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Techniques used
+- BLoC architectural pattern (SOC);
+- RxDart data streams;
+- Dart http network requests;
+- Flutter navigation;
+- Flutter webview dependency;
