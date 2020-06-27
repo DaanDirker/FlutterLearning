@@ -3,10 +3,12 @@
 Finds ***the*** right pizza recipe for you.
 
 ## Demo
+<p float="left">
+    <img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/pizzas.png" width="200"/>
+    <img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/details.png" width="200"/>
+    <img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/webview.png" width="200"/>
+</p>
 
-<img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/pizzas.png" width="75"/>
-<img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/details.png" width="75"/>
-<img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/webview.png" width="75"/>
 
 ## Learned
 - Everything is a widget;
