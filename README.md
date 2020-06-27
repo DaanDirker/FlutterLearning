@@ -1,6 +1,6 @@
 # Flutter Learning
 
-All samples that were made during the learning of the Flutter framework.
+All samples that were made while learning the Flutter framework.
 
 ## Installation
 Each individual directory, or sample in this repository contains a Flutter project. They each require the same installation before usage. To perform the installation a enviorement with the Flutter SDK is required.
