@@ -4,9 +4,9 @@ Finds ***the*** right pizza recipe for you.
 
 ## Demo
 <p float="left">
-    <img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/pizzas.png" width="200"/>
-    <img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/details.png" width="200"/>
-    <img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/webview.png" width="200"/>
+    <img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/pizzas.png" width="330"/>
+    <img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/details.png" width="330"/>
+    <img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/webview.png" width="330"/>
 </p>
 
 
