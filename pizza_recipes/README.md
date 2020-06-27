@@ -4,7 +4,9 @@ Finds ***the*** right pizza recipe for you.
 
 ## Demo
 
-![Alt text](./demo_images/pizzas.png) ![Alt text](./demo_images/details.png) ![Alt text](./demo_images/webview.png)
+<img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/pizzas.png" width="75"/>
+<img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/details.png" width="75"/>
+<img src="https://github.com/DaanDirker/FlutterLearning/blob/master/pizza_recipes/demo_images/webview.png" width="75"/>
 
 ## Learned
 - Everything is a widget;
