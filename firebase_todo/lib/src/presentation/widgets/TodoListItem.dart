@@ -2,8 +2,10 @@ import 'package:firebase_todo/src/data/model/Todo.dart';
 import 'package:flutter/material.dart';
 
 class TodoListItem extends StatefulWidget {
-  TodoListItem(this.todo);
+  TodoListItem(this.todo, this.onTap, this.onLongTap);
   final Todo todo;
+  final Function(Todo todo) onTap;
+  final Function(Todo todo) onLongTap;
 
   @override
   _TodoListItemState createState() => _TodoListItemState();
@@ -11,19 +13,12 @@ class TodoListItem extends StatefulWidget {
 
 class _TodoListItemState extends State<TodoListItem> {
   Todo todo;
-
-  void _toggleDone(Todo todo) {
-    todo.toggleDone();
-    setState(() {
-      this.todo = todo;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     todo = widget.todo;
     return GestureDetector(
-      onTap: () => _toggleDone(todo),
+      onTap: () => widget.onTap(todo),
+      onLongPress: () => widget.onLongTap(todo),
       child: Container(
         height: 64,
         child: Card(
@@ -42,7 +37,7 @@ class _TodoListItemState extends State<TodoListItem> {
                   ),
                 ),
                 Checkbox(
-                    value: todo.isDone, onChanged: (_) => _toggleDone(todo)),
+                    value: todo.isDone, onChanged: (_) => widget.onTap(todo)),
               ],
             ),
           ),

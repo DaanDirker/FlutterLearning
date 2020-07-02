@@ -1,6 +1,6 @@
 import 'package:firebase_todo/src/presentation/screens/TodoScreen.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_todo/src/util/constants.dart' as Constants;
+import 'package:firebase_todo/src/util/constants.dart' as Consts;
 
 void main() {
   runApp(App());
@@ -13,7 +13,7 @@ class App extends StatelessWidget {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(Constants.APP_DISPLAY_NAME),
+            Text(Consts.APP_DISPLAY_NAME),
             Container(
                 margin: EdgeInsets.only(left: 8.0, top: 4.0),
                 child: Icon(Icons.av_timer))
